@@ -1,0 +1,579 @@
+.visuallyhidden {
+    /* position: absolute; */
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+  }
+  
+  .Mcontainer {
+    transform: rotate(-0.00042121484895223153rad);
+    background: #000;
+    display: flex;
+    min-height: 900px;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: 0 48px;
+  }
+  
+  .header {
+    background: #000;
+    display: flex;
+    width: 100%;
+    padding-top: 24px;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    justify-content: flex-start;
+    font: 500 17px/1 Archivo, sans-serif;
+  }
+  
+  .navcontainer {
+    border-radius: 16px;
+    background: rgba(146, 141, 211, 0.06);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.16);
+    position: relative;
+    display: flex;
+    width: 1080px;
+    max-width: 100%;
+    align-items: flex-start;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 24px 32px;
+  }
+  
+  .navbg {
+    background-blend-mode: normal;
+    background: rgba(146, 141, 211, 0.06);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    min-width: 240px;
+    height: 72px;
+    width: 100%;
+  }
+  
+  .navlinks {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin: auto 0;
+  }
+  
+  .navlink {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dreamscapelogo {
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font: 42px / 1 Staatliches, sans-serif;
+      letter-spacing: -1.68px;
+      color: #fff;
+  }
+  
+  .maincon {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 48px 0;
+  }
+  
+  .crapper {
+    display: flex;
+    min-width: 240px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  
+  .hcont {
+    background: #000;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -2.4px;
+    justify-content: flex-start;
+    padding: 72px 0;
+    font: 900 120px/1 Chivo, sans-serif;
+  }
+  
+  .hero-image {
+    aspect-ratio: 2;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 22px;
+    background-blend-mode: normal;
+    margin-top: 48px;
+  }
+  
+  .pgrid {
+    background: #000;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 40px 48px;
+    font-family: Archivo, sans-serif;
+    font-weight: 500;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 48px 0;
+  }
+  
+  .pcolumn {
+    background: #000;
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  
+  .pcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 416px;
+    max-width: 100%;
+  }
+  
+  .pcard:not(:first-child) {
+    margin-top: 48px;
+  }
+  
+  .project-image {
+    width: 100%;
+    object-fit: contain;
+    background-blend-mode: normal;
+  }
+  
+  .pinfo {
+    display: flex;
+    margin-top: 8px;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .ptit {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  
+  .pcategory {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 17px;
+    line-height: 1;
+  }
+  
+  .neletsec {
+    background: #000;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .neletwrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    min-height: 699px;
+    margin-right: -48px;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newsletter-bg {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .nelettit {
+    position: relative;
+    color: #fff;
+    letter-spacing: -0.34px;
+    text-align: center;
+    font: 900 34px/1 Chivo, sans-serif;
+  }
+  
+  .neletfo {
+    position: relative;
+    display: flex;
+    margin-top: 48px;
+    width: 600px;
+    max-width: 100%;
+    gap: 12px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font: 20px/1.2 Archivo, sans-serif;
+  }
+  
+  .newsletterinput {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 8px;
+    background: #000;
+    min-width: 240px;
+    color: rgba(255, 255, 255, 0.36);
+    font-weight: 500;
+    height: 100%;
+    flex-basis: 24px;
+    padding: 8px 12px;
+    border: 1px solid #fff;
+  }
+  
+  .newsletterbutton {
+    align-self: flex-start;
+    border-radius: 8px;
+    background: rgb(146, 141, 211);
+    color: #000;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sociallinks {
+    position: relative;
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 48px;
+  }
+  
+  .footer {
+    background: #000;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: 72px 0 24px;
+  }
+  
+  .footercontainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .copyright {
+    align-self: stretch;
+    min-width: 240px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: -0.28px;
+    margin: auto 0;
+    font: 400 28px/1 Chivo, sans-serif;
+  }
+  
+  .contactbutton {
+    align-self: stretch;
+    border-radius: 8px;
+    color: #fff;
+    margin: auto 0;
+    padding: 12px 24px;
+    font: 600 20px/1.2 Archivo, sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  /* Large screens (992px and above) */
+  @media (max-width: 991px) {
+    .Mcontainer {
+      padding: 0 20px;
+    }
+  
+    .header {
+      max-width: 100%;
+      white-space: initial;
+    }
+  
+    .navcontainer {
+      padding: 0 20px;
+    }
+  
+    .navbg {
+      max-width: 100%;
+    }
+  
+    .navlinks {
+      white-space: initial;
+    }
+  
+    .dreamscapelogo {
+      white-space: initial;
+      font-size: 32px;
+    }
+  
+    .maincon {
+      max-width: 100%;
+    }
+  
+    .crapper {
+      max-width: 100%;
+    }
+  
+    .hcont {
+      max-width: 100%;
+      font-size: 60px;
+      padding: 40px 0;
+    }
+  
+    .hero-image {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .pgrid {
+      max-width: 100%;
+      gap: 30px;
+    }
+  
+    .pcard:not(:first-child) {
+      margin-top: 40px;
+    }
+  
+    .neletsec {
+      max-width: 100%;
+    }
+  
+    .neletwrap {
+      max-width: 100%;
+      min-height: 500px;
+      margin-right: 0;
+    }
+  
+    .neletfo {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .newsletterinput {
+      max-width: 100%;
+    }
+  
+    .newsletterbutton {
+      white-space: initial;
+      padding: 12px 20px;
+    }
+  
+    .sociallinks {
+      margin-top: 40px;
+    }
+  
+    .footer {
+      max-width: 100%;
+      padding: 40px 0 20px;
+    }
+  
+    .footercontainer {
+      max-width: 100%;
+      gap: 30px;
+    }
+  
+    .contactbutton {
+      padding: 12px 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navlinks {
+      display: none; 
+  
+    .hcont {
+      font-size: 40px;
+      padding: 30px 0;
+    }
+  
+  }
+  
+    .pgrid {
+      gap: 20px;
+    }
+  
+    .pcolumn {
+      flex: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .pcard {
+      width: 100%;
+      margin-top: 30px !important;
+    }
+  
+    .neletfo {
+      flex-direction: column;
+    }
+  
+    .newsletterbutton {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .sociallinks {
+      gap: 20px;
+    }
+  
+    .social-icon {
+      width: 36px;
+    }
+  
+    .footercontainer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .copyright {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Mcontainer {
+      padding: 0 15px;
+    }
+  
+    .dreamscapelogo {
+      font-size: 24px;
+    }
+  
+    .hcont {
+      font-size: 32px;
+      padding: 20px 0;
+    }
+  
+    .nelettit {
+      font-size: 24px;
+    }
+  
+    .neletwrap {
+      min-height: 400px;
+    }
+  
+    .sociallinks {
+      gap: 15px;
+    }
+  
+    .social-icon {
+      width: 32px;
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .neletwrap {
+    animation: slideIn 1s ease-out;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    min-height: 699px;
+    margin-right: -48px;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navlink {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navlink:hover {
+    color: #92A1D3; 
+    transform: translateY(-5px); 
+  }
+  
+  .hcont, .nelettit, .newsletterbutton, .newsletter-bg {
+    transition: color 0.3s ease;
+  }
+  .nelettit:hover, .newsletterbutton:hover, newsletter-bg:hover {
+    color: rgb(146, 141, 211);
+  }
+  
+  .pcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 416px;
+    max-width: 100%;
+    opacity: 0; 
+    animation: fadeInUp 1s forwards;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .pcard:nth-child(1) { animation-delay: 0.1s; }
+  .pcard:nth-child(2) { animation-delay: 0.2s; }
+  .pcard:nth-child(3) { animation-delay: 0.3s; }
+  .pcard:nth-child(4) { animation-delay: 0.4s; }
+  .pcard:nth-child(5) { animation-delay: 0.5s; }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .newsletterbutton:hover, .contactbutton:hover {
+    background-color: rgb(146, 141, 211); 
+    color: white; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navlink .contact:hover {
+    color: rgb(146, 141, 211);
+    transition: color 0.3s ease;
+  }
+  .sociallinks .social-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .sociallinks .social-icon:hover {
+    transform: scale(1.2);
+  }
